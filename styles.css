@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232323;
+    transition: background-color 0.6s ease;
+    margin: 0;
+}
+
+#h1 {
+    text-align: center; 
+    color: white; 
+    font-family: "Momo Trust Display", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.6s ease, background-color 0.6s ease;
+    padding: 20px 0;
+    margin: 0;
+}
+
+#stripe {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    transition: background-color 0.6s ease;
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+button {
+    background-color: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    height: 100%;
+    padding: 0 10px;
+    outline: none !important;
+    border: none;
+    transition: all 0.4s;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+button:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.selected {
+    background-color: tomato;
+    color: white !important;
+}
+
+#message {
+    display: inline-block;
+    width: 38%;
+    font-family: "Momo Trust Display", sans-serif;
+    color: inherit; 
+    text-align: center;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.square {
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    background-color: white;
+    margin: 1.66% 0;
+    border-radius: 15pt;
+    border: 3px solid rgba(0, 0, 0, 0.25);
+    outline: none !important;
+    transition: background-color 0.6s ease, transform 0.3s ease, opacity 0.6s ease;
+}
